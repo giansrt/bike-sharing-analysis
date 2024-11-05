@@ -39,7 +39,7 @@ max_date = day_df["dteday"].max()
 
 with st.sidebar:
     st.image(
-        "https://raw.githubusercontent.com/giansrt/bike-sharing-analysis/refs/heads/main/Full%20Color.png"
+        "https://github.com/giansrt/bike-sharing-analysis/blob/main/Full%20Color.png?raw=true"
     )
     start_date, end_date = st.date_input(
         label="Rentang Waktu",
