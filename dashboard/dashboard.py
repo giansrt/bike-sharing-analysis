@@ -12,8 +12,8 @@ import warnings
 warnings.simplefilter(action="ignore", category=FutureWarning)
 
 # Baca file CSV dan konversi tanggal
-day_df = pd.read_csv("data/cleaned_day.csv")
-hour_df = pd.read_csv("data/cleaned_hour.csv")
+day_df = pd.read_csv("data\cleaned_day.csv")
+hour_df = pd.read_csv("data\cleaned_hour.csv")
 
 
 day_df["dteday"] = pd.to_datetime(day_df["dteday"])
